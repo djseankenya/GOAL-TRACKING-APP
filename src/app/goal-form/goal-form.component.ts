@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Component, OnInit,Output,EventEmitter } from '@angular/core';
+import { Output,EventEmitter } from '@angular/core';
 import {Goal} from '../goal';
 
 @Component({
@@ -14,5 +14,5 @@ export class GoalFormComponent implements OnInit {
        this.addGoal.emit(this.newGoal);
      }
 
-
+ngOnInit(){}
 }
